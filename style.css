@@ -87,6 +87,9 @@ body{font-family:system-ui,-apple-system,sans-serif;background:#f0f4f8;color:#1a
 .side-panel.open{transform:translateX(0)}
 .overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:99;display:none}
 .overlay.show{display:block}
+
+
+
 @media(max-width:600px){
   .stats-bar{grid-template-columns:repeat(2,1fr)}
   .result-grid{grid-template-columns:repeat(2,1fr)}
